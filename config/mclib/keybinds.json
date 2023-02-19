@@ -1,0 +1,467 @@
+{
+    "minecraft": {
+        "": {}
+    },
+    "mcp": {
+        "": {}
+    },
+    "FML": {
+        "": {}
+    },
+    "forge": {
+        "": {}
+    },
+    "foamfixcore": {
+        "": {}
+    },
+    "randompatches": {
+        "": {}
+    },
+    "itemblacklist": {
+        "": {}
+    },
+    "actuallyadditions": {
+        "": {}
+    },
+    "ctm": {
+        "": {}
+    },
+    "appliedenergistics2": {
+        "": {}
+    },
+    "bdlib": {
+        "": {}
+    },
+    "ae2stuff": {
+        "": {}
+    },
+    "forgelin": {
+        "": {}
+    },
+    "redstoneflux": {
+        "": {}
+    },
+    "cofhcore": {
+        "": {}
+    },
+    "crafttweaker": {
+        "": {}
+    },
+    "ic2": {
+        "": {}
+    },
+    "jei": {
+        "": {}
+    },
+    "mekanism": {
+        "": {}
+    },
+    "aeadditions": {
+        "": {}
+    },
+    "aiimprovements": {
+        "": {}
+    },
+    "appleskin": {
+        "": {}
+    },
+    "mantle": {
+        "": {}
+    },
+    "chisel": {
+        "": {}
+    },
+    "baubles": {
+        "": {}
+    },
+    "endercore": {
+        "": {}
+    },
+    "thaumcraft": {
+        "": {}
+    },
+    "codechickenlib": {
+        "": {}
+    },
+    "brandonscore": {
+        "": {}
+    },
+    "cofhworld": {
+        "": {}
+    },
+    "thermalfoundation": {
+        "": {}
+    },
+    "draconicevolution": {
+        "": {}
+    },
+    "thermalexpansion": {
+        "": {}
+    },
+    "enderio": {
+        "": {}
+    },
+    "enderiointegrationtic": {
+        "": {}
+    },
+    "tinkersextras": {
+        "": {}
+    },
+    "tconstruct": {
+        "": {}
+    },
+    "conarm": {
+        "": {}
+    },
+    "botania": {
+        "": {}
+    },
+    "extrabotany": {
+        "": {}
+    },
+    "armoryexpansion": {
+        "": {}
+    },
+    "armoryexpansion-custommaterials": {
+        "": {}
+    },
+    "armoryexpansion-iceandfire": {
+        "": {}
+    },
+    "armoryexpansion-matteroverdrive": {
+        "": {}
+    },
+    "armoryexpansion-bitsandpieces": {
+        "": {}
+    },
+    "aroma1997core": {
+        "": {}
+    },
+    "autoreglib": {
+        "": {}
+    },
+    "avaritia": {
+        "": {}
+    },
+    "avaritiaio": {
+        "": {}
+    },
+    "badwithernocookiereloaded": {
+        "": {}
+    },
+    "bhc": {
+        "": {}
+    },
+    "bclforgelib": {
+        "": {}
+    },
+    "betterfurnacesreforged": {
+        "": {}
+    },
+    "bookshelf": {
+        "": {}
+    },
+    "chameleon": {
+        "": {}
+    },
+    "champions": {
+        "": {}
+    },
+    "chunkpregenerator": {
+        "": {}
+    },
+    "supermartijn642configlib": {
+        "": {}
+    },
+    "supermartijn642corelib": {
+        "": {}
+    },
+    "chunkloaders": {
+        "": {}
+    },
+    "clumps": {
+        "": {}
+    },
+    "cookingforblockheads": {
+        "": {}
+    },
+    "cosmeticarmorreworked": {
+        "": {}
+    },
+    "ctgui": {
+        "": {}
+    },
+    "crafttweakerjei": {
+        "": {}
+    },
+    "cucumber": {
+        "": {}
+    },
+    "darkutils": {
+        "": {}
+    },
+    "patchouli": {
+        "": {}
+    },
+    "deepmoblearning": {
+        "": {}
+    },
+    "denseneutroncollectors": {
+        "": {}
+    },
+    "draconicadditions": {
+        "": {}
+    },
+    "dupefixproject": {
+        "": {}
+    },
+    "orelib": {
+        "": {}
+    },
+    "dsurround": {
+        "": {}
+    },
+    "enderiobase": {
+        "": {}
+    },
+    "enderioconduits": {
+        "": {}
+    },
+    "enderioconduitsappliedenergistics": {
+        "": {}
+    },
+    "enderioconduitsopencomputers": {
+        "": {}
+    },
+    "enderioconduitsrefinedstorage": {
+        "": {}
+    },
+    "enderiointegrationforestry": {
+        "": {}
+    },
+    "enderiointegrationticlate": {
+        "": {}
+    },
+    "enderioinvpanel": {
+        "": {}
+    },
+    "enderiomachines": {
+        "": {}
+    },
+    "enderiopowertools": {
+        "": {}
+    },
+    "enderioendergy": {
+        "": {}
+    },
+    "enderstorage": {
+        "": {}
+    },
+    "valkyrielib": {
+        "": {}
+    },
+    "environmentaltech": {
+        "": {}
+    },
+    "exponentialpower": {
+        "": {}
+    },
+    "extendedcrafting": {
+        "": {}
+    },
+    "extracpus": {
+        "": {}
+    },
+    "extrautils2": {
+        "": {}
+    },
+    "zerocore": {
+        "": {}
+    },
+    "bigreactors": {
+        "": {}
+    },
+    "fluxnetworks": {
+        "": {}
+    },
+    "foamfix": {
+        "": {}
+    },
+    "gravestone": {
+        "": {}
+    },
+    "gravisuite": {
+        "": {}
+    },
+    "guideapi": {
+        "": {}
+    },
+    "hammercore": {
+        "": {}
+    },
+    "ichunutil": {
+        "": {}
+    },
+    "hats": {
+        "": {}
+    },
+    "teslacorelib": {
+        "": {}
+    },
+    "industrialforegoing": {
+        "": {}
+    },
+    "inventorytweaks": {
+        "": {}
+    },
+    "ironchest": {
+        "": {}
+    },
+    "journeymap": {
+        "": {}
+    },
+    "jeresources": {
+        "": {}
+    },
+    "libnine": {
+        "": {}
+    },
+    "threng": {
+        "": {}
+    },
+    "libraryex": {
+        "": {}
+    },
+    "lunatriuscore": {
+        "": {}
+    },
+    "mcjtylib_ng": {
+        "": {}
+    },
+    "mclib": {
+        "": {}
+    },
+    "immersiveengineering": {
+        "": {}
+    },
+    "immersivetech": {
+        "": {}
+    },
+    "mekanismgenerators": {
+        "": {}
+    },
+    "mekores": {
+        "": {}
+    },
+    "moartinkers": {
+        "": {}
+    },
+    "mousetweaks": {
+        "": {}
+    },
+    "mrtjpcore": {
+        "": {}
+    },
+    "netherportalfix": {
+        "": {}
+    },
+    "oreexcavation": {
+        "": {}
+    },
+    "p455w0rdslib": {
+        "": {}
+    },
+    "packagedauto": {
+        "": {}
+    },
+    "performant": {
+        "": {}
+    },
+    "placebo": {
+        "": {}
+    },
+    "plustic": {
+        "": {}
+    },
+    "projectintelligence": {
+        "": {}
+    },
+    "reborncore": {
+        "": {}
+    },
+    "rftools": {
+        "": {}
+    },
+    "schematica": {
+        "": {}
+    },
+    "specialai": {
+        "": {}
+    },
+    "storagedrawers": {
+        "": {}
+    },
+    "techreborn": {
+        "": {}
+    },
+    "thaumicaugmentation": {
+        "": {}
+    },
+    "thaumicenergistics": {
+        "": {}
+    },
+    "thermalcultivation": {
+        "": {}
+    },
+    "thermaldynamics": {
+        "": {}
+    },
+    "thermalinnovation": {
+        "": {}
+    },
+    "tinkertoolleveling": {
+        "": {}
+    },
+    "tlauncher_custom_cape_skin": {
+        "": {}
+    },
+    "torchmaster": {
+        "": {}
+    },
+    "trumpetskeleton": {
+        "": {}
+    },
+    "uteamcore": {
+        "": {}
+    },
+    "universalmodifiers": {
+        "": {}
+    },
+    "vanillafix": {
+        "": {}
+    },
+    "wanionlib": {
+        "": {}
+    },
+    "xnet": {
+        "": {}
+    },
+    "llibrary": {
+        "": {}
+    },
+    "techreborn_compat": {
+        "": {}
+    },
+    "armoryexpansion-conarm": {
+        "": {}
+    },
+    "teslacorelib_registries": {
+        "": {}
+    },
+    "unidict": {
+        "": {}
+    },
+    "": {
+        "": {}
+    }
+}
