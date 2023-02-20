@@ -102,10 +102,10 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thaumcraft:creative_flux_spong
 recipes.remove (<environmentaltech:void_ore_miner_cont_1>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_ore_miner_cont_1>, [
 	[null, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, null], 
-	[<appliedenergistics2:quartz_vibrant_glass>, <draconicevolution:draconic_core>, <ore:blockLitherite>, <draconicevolution:draconic_core>, <appliedenergistics2:quartz_vibrant_glass>], 
+	[<appliedenergistics2:quartz_vibrant_glass>, <actuallyadditions:item_mining_lens>, <ore:blockLitherite>, <actuallyadditions:item_mining_lens>, <appliedenergistics2:quartz_vibrant_glass>], 
 	[<appliedenergistics2:quartz_vibrant_glass>, <ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>, <appliedenergistics2:quartz_vibrant_glass>], 
 	[<appliedenergistics2:quartz_vibrant_glass>, <ore:blockLitherite>, <environmentaltech:laser_core>, <ore:blockLitherite>, <appliedenergistics2:quartz_vibrant_glass>], 
-	[<ore:obsidian>, <ore:obsidian>, <mekanism:machineblock2:13>, <ore:obsidian>, <ore:obsidian>]
+	[<ore:blockDarkSteel>, <ore:blockDarkSteel>, <mekanism:machineblock2:13>, <ore:blockDarkSteel>, <ore:blockDarkSteel>]
 ]);
 // Void Ore T2
 recipes.remove (<environmentaltech:void_ore_miner_cont_2>);
@@ -479,11 +479,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:controller
 // Lens Of the miner
 recipes.remove (<actuallyadditions:item_mining_lens>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <actuallyadditions:item_mining_lens>, [
-	[<industrialforegoing:laser_lens>, <ore:compressed3xCobblestone>, <ore:ingotGold>, <ore:compressed3xCobblestone>, <industrialforegoing:laser_lens>], 
-	[<ore:compressed3xCobblestone>, <ore:craftingIndustrialDiamond>, <draconicevolution:draconic_core>, <ore:gemQuartzBlack>, <ore:compressed3xCobblestone>], 
-	[<ore:gemLapis>, <ore:compressed3xCobblestone>, <actuallyadditions:item_color_lens>, <ore:compressed3xCobblestone>, <ore:gemQuartz>], 
-	[<ore:compressed3xCobblestone>, <ore:gemCoal>, <draconicevolution:draconic_core>, <ore:gemEmerald>, <ore:compressed3xCobblestone>], 
-	[<industrialforegoing:laser_lens>, <ore:compressed3xCobblestone>, <ore:ingotIron>, <ore:compressed3xCobblestone>, <industrialforegoing:laser_lens>]
+	[<industrialforegoing:laser_lens>, <ore:compressed5xCobblestone>, <ore:ingotGold>, <ore:compressed5xCobblestone>, <industrialforegoing:laser_lens>], 
+	[<ore:compressed5xCobblestone>, <ore:craftingIndustrialDiamond>, <ore:alloyUltimate>, <ore:gemQuartz>, <ore:compressed5xCobblestone>], 
+	[<ore:gemLapis>, <ore:compressed5xCobblestone>, <actuallyadditions:item_color_lens>, <ore:compressed5xCobblestone>, <ore:gemEmerald>], 
+	[<ore:compressed5xCobblestone>, <ore:gemCoal>, <ore:alloyUltimate>, <ore:gemQuartzBlack>, <ore:compressed5xCobblestone>], 
+	[<industrialforegoing:laser_lens>, <ore:compressed5xCobblestone>, <ore:ingotIron>, <ore:compressed5xCobblestone>, <industrialforegoing:laser_lens>]
 ]);
 // Block Placer
 recipes.remove (<industrialforegoing:block_placer>);
@@ -805,42 +805,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:atomicdisassembler>, 
 	[<mekanism:basicblock:8>, <ore:circuitUltimate>, <ore:battery>, <ore:circuitUltimate>, <mekanism:basicblock:8>], 
 	[<ore:blockRefinedObsidian>, <mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>, <ore:blockRefinedObsidian>], 
 	[<ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>, <mekanism:basicblock:8>, <ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>]
-]);
-// Basic Installer Meka
-recipes.remove (<mekanism:tierinstaller>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:tierinstaller>, [
-	[<ore:alloyAdvanced>, <ore:circuitBasic>, <ore:alloyAdvanced>], 
-	[<mekanism:speedupgrade>, <mekanism:basicblock:8>, <mekanism:energyupgrade>], 
-	[<ore:alloyAdvanced>, <ore:circuitBasic>, <ore:alloyAdvanced>]
-]);
-// Advanced Installer Meka
-recipes.remove (<mekanism:tierinstaller:1>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:tierinstaller:1>, [
-	[<ore:alloyElite>, <ore:circuitAdvanced>, <ore:blockRefinedObsidian>, <ore:circuitAdvanced>, <ore:alloyElite>], 
-	[<ore:circuitAdvanced>, <ic2:upgrade>, <mekanism:tierinstaller>, <mekanism:speedupgrade>, <ore:circuitAdvanced>], 
-	[<mekanism:basicblock:8>, <mekanism:tierinstaller>, <ore:machineBlockAdvanced>, <mekanism:tierinstaller>, <mekanism:basicblock:8>], 
-	[<ore:circuitAdvanced>, <mekanism:energyupgrade>, <mekanism:tierinstaller>, <ic2:upgrade:2>, <ore:circuitAdvanced>], 
-	[<ore:alloyElite>, <ore:circuitAdvanced>, <ore:blockRefinedObsidian>, <ore:circuitAdvanced>, <ore:alloyElite>]
-]);
-// Elite Installer Meka
-recipes.remove (<mekanism:tierinstaller:2>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:tierinstaller:2>, [
-	[<ore:alloyUltimate>, <ore:circuitElite>, <ore:blockDraconium>, <ore:circuitElite>, <ore:alloyUltimate>], 
-	[<ore:circuitElite>, <mekanism:speedupgrade>, <mekanism:tierinstaller>, <mekanism:gasupgrade>, <ore:circuitElite>], 
-	[<ore:machineBlockAdvanced>, <mekanism:tierinstaller:1>, <ore:itemEnhancedMachineChassi>, <mekanism:tierinstaller:1>, <ore:machineBlockAdvanced>], 
-	[<ore:circuitElite>, <mekanism:energyupgrade>, <mekanism:tierinstaller>, <mekanism:mufflingupgrade>, <ore:circuitElite>], 
-	[<ore:alloyUltimate>, <ore:circuitElite>, <ore:blockDraconium>, <ore:circuitElite>, <ore:alloyUltimate>]
-]);
-// Ultimate Installer Meka
-recipes.remove (<mekanism:tierinstaller:3>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:tierinstaller:3>, [
-	[<mekanism:basicblock:8>, <ore:alloyUltimate>, <ore:alloyUltimate>, <extrautils2:machine>, <ore:alloyUltimate>, <ore:alloyUltimate>, <mekanism:basicblock:8>], 
-	[<ore:alloyUltimate>, null, <ore:circuitUltimate>, <ore:machineBlockAdvanced>, <ore:circuitUltimate>, null, <ore:alloyUltimate>], 
-	[<ore:alloyUltimate>, <ore:circuitUltimate>, <draconicevolution:wyvern_core>, <mekanism:tierinstaller>, <draconicevolution:wyvern_core>, <ore:circuitUltimate>, <ore:alloyUltimate>], 
-	[<mekanism:basicblock:8>, <ore:machineBlockAdvanced>, <mekanism:tierinstaller:2>, <ore:itemUnsouledMachineChassi>, <mekanism:tierinstaller:2>, <ore:machineBlockAdvanced>, <mekanism:basicblock:8>], 
-	[<ore:alloyUltimate>, <ore:circuitUltimate>, <draconicevolution:wyvern_core>, <mekanism:tierinstaller:1>, <draconicevolution:wyvern_core>, <ore:circuitUltimate>, <ore:alloyUltimate>], 
-	[<ore:alloyUltimate>, null, <ore:circuitUltimate>, <ore:machineBlockAdvanced>, <ore:circuitUltimate>, null, <ore:alloyUltimate>], 
-	[<mekanism:basicblock:8>, <ore:alloyUltimate>, <ore:alloyUltimate>, <extrautils2:machine>, <ore:alloyUltimate>, <ore:alloyUltimate>, <mekanism:basicblock:8>]
 ]);
 // Draconic Sword
 mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:draconic_sword>, [

@@ -271,9 +271,22 @@ recipes.remove (<ic2:boat:3>);
 mods.jei.JEI.removeAndHide (<ic2:boat:3>);
 recipes.remove (<minecraft:observer>);
 mods.jei.JEI.removeAndHide (<minecraft:observer>);
-recipes.remove (<minecraft:hopper>);
-mods.jei.JEI.removeAndHide (<minecraft:hopper>);
-recipes.remove (<minecraft:anvil>);
-mods.jei.JEI.removeAndHide (<minecraft:anvil>);
-// vajra
+
+recipes.remove (<actuallyadditions:block_miner>);
+mods.jei.JEI.removeAndHide (<actuallyadditions:block_miner>);
+recipes.remove (<rftools:storage_scanner>);
+mods.jei.JEI.removeAndHide (<rftools:storage_scanner>);
+recipes.remove (<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv"}));
+mods.jei.JEI.removeAndHide (<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv"}));
+recipes.remove (<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}));
+mods.jei.JEI.removeAndHide (<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}));
+recipes.remove (<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}));
+mods.jei.JEI.removeAndHide (<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}));
+// Vajra
 recipes.remove (<gravisuite:vajra:26>);
+recipes.remove (<gravisuite:vajra>.withTag({charge: 1.0E7}));
+// Tanks do meka
+recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 0}));
+recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 1}));
+recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 2}));
+recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 3}));
