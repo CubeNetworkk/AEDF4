@@ -443,11 +443,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <enderio:block_powered_spawner>
 // Atomic Reconstructor
 recipes.remove (<actuallyadditions:block_atomic_reconstructor>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <actuallyadditions:block_atomic_reconstructor>, [
-	[<thermalexpansion:frame>, <chisel:ironpane:7>, <ore:eyeofredstone>, <chisel:ironpane:7>, <thermalexpansion:frame>], 
-	[<chisel:ironpane:7>, <ore:blockRedstone>, <thermalexpansion:cell>, <ore:blockRedstone>, <chisel:ironpane:7>], 
+	[<thermalexpansion:frame>, <ore:barsIron>, <ore:eyeofredstone>, <ore:barsIron>, <thermalexpansion:frame>], 
+	[<ore:barsIron>, <ore:blockRedstone>, <thermalexpansion:cell>, <ore:blockRedstone>, <ore:barsIron>], 
 	[<ore:eyeofredstone>, <thermalexpansion:cell>, <actuallyadditions:item_misc:18>, <thermalexpansion:cell>, <ore:eyeofredstone>], 
-	[<chisel:ironpane:7>, <ore:blockRedstone>, <thermalexpansion:cell>, <ore:blockRedstone>, <chisel:ironpane:7>], 
-	[<thermalexpansion:frame>, <chisel:ironpane:7>, <ore:eyeofredstone>, <chisel:ironpane:7>, <thermalexpansion:frame>]
+	[<ore:barsIron>, <ore:blockRedstone>, <thermalexpansion:cell>, <ore:blockRedstone>, <ore:barsIron>], 
+	[<thermalexpansion:frame>, <ore:barsIron>, <ore:eyeofredstone>, <ore:barsIron>, <thermalexpansion:frame>]
 ]);
 // Cursed lasso
 recipes.remove (<extrautils2:goldenlasso:1>);
@@ -506,11 +506,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:block_dest
 // Steel casing
 recipes.remove (<mekanism:basicblock:8>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:basicblock:8>, [
-	[<ore:blockSteel>, <ore:blockSteel>, <ore:blockGlassColorless>, <ore:blockSteel>, <ore:blockSteel>], 
-	[<ore:blockSteel>, <ore:blockOsmium>, <ore:gearLead>, <ore:blockOsmium>, <ore:blockSteel>], 
-	[<ore:blockGlassColorless>, <ore:gearLead>, <ore:machineBlockAdvanced>, <ore:gearLead>, <ore:blockGlassColorless>], 
-	[<ore:blockSteel>, <ore:blockOsmium>, <ore:gearLead>, <ore:blockOsmium>, <ore:blockSteel>], 
-	[<ore:blockSteel>, <ore:blockSteel>, <ore:blockGlassColorless>, <ore:blockSteel>, <ore:blockSteel>]
+	[<ore:gearLead>, <ore:blockSteel>, <ore:itemMachineChassi>, <ore:blockSteel>, <ore:gearLead>], 
+	[<ore:blockSteel>, <ore:blockGlassColorless>, <ore:blockIron>, <ore:blockGlassColorless>, <ore:blockSteel>], 
+	[<ore:itemMachineChassi>, <ore:blockIron>, <ore:blockOsmium>, <ore:blockIron>, <ore:itemMachineChassi>], 
+	[<ore:blockSteel>, <ore:blockGlassColorless>, <ore:blockIron>, <ore:blockGlassColorless>, <ore:blockSteel>], 
+	[<ore:gearLead>, <ore:blockSteel>, <ore:itemMachineChassi>, <ore:blockSteel>, <ore:gearLead>]
 ]);
 // Deep Learner
 recipes.remove (<deepmoblearning:deep_learner>);
@@ -783,11 +783,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <exponentialpower:enderstorage>
 // Digital Miner
 recipes.remove (<mekanism:machineblock:4>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:machineblock:4>, [
-	[<mekanism:teleportationcore>, <mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>, <mekanism:teleportationcore>], 
-	[<mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>], 
-	[<ore:circuitUltimate>, <mekanism:machineblock:15>, <mekanism:atomicdisassembler>, <mekanism:machineblock:15>, <ore:circuitUltimate>], 
-	[<mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>], 
-	[<mekanism:teleportationcore>, <mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>, <mekanism:teleportationcore>]
+	[<ore:circuitUltimate>, <mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>, <ore:circuitUltimate>], 
+	[<mekanism:basicblock:8>, <ore:alloyUltimate>, <mekanism:basicblock:8>, <immersiveengineering:metal_device1:7>, <mekanism:basicblock:8>, <ore:alloyUltimate>, <mekanism:basicblock:8>], 
+	[<ore:circuitUltimate>, <ore:alloyUltimate>, <mekanism:basicblock2:3>, <mekanism:basicblock2:3>, <mekanism:basicblock2:3>, <ore:alloyUltimate>, <ore:circuitUltimate>], 
+	[<mekanism:basicblock:8>, <mekanism:basicblock:8>, <threng:material:14>, <mekanism:atomicdisassembler>, <threng:material:14>, <mekanism:basicblock:8>, <mekanism:basicblock:8>], 
+	[<ore:circuitUltimate>, <ore:alloyUltimate>, <mekanism:basicblock2:3>, <mekanism:basicblock2:3>, <mekanism:basicblock2:3>, <ore:alloyUltimate>, <ore:circuitUltimate>], 
+	[<mekanism:basicblock:8>, <ore:alloyUltimate>, <mekanism:basicblock:8>, <immersiveengineering:metal_device1:7>, <mekanism:basicblock:8>, <ore:alloyUltimate>, <mekanism:basicblock:8>], 
+	[<ore:circuitUltimate>, <mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>, <ore:circuitUltimate>, <mekanism:basicblock:8>, <ore:circuitUltimate>]
 ]);
 // Vajra
 mods.extendedcrafting.TableCrafting.addShaped(0, <gravisuite:vajra:26>, [
@@ -894,3 +896,50 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:dislocator_a
 	[<draconicevolution:draconium_block:1>, <draconicevolution:wyvern_energy_core>, <draconicevolution:awakened_core>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconium_block:1>], 
 	[<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <draconicevolution:wyvern_core>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>]
 ]);
+// Tanks do Meka
+recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 0}));
+mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:machineblock2:11>.withTag({tier: 0}), [
+	[<ore:blockRedstone>, <ore:blockIron>, <ore:blockRedstone>], 
+	[<ore:blockIron>, <mekanism:basicblock:8>, <ore:blockIron>], 
+	[<ore:blockRedstone>, <ore:blockIron>, <ore:blockRedstone>]
+]);
+recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 1}));
+mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:machineblock2:11>.withTag({tier: 1}), [
+	[<ore:alloyAdvanced>, <ore:blockIron>, <ore:alloyAdvanced>], 
+	[<ore:blockIron>, <mekanism:machineblock2:11>, <ore:blockIron>], 
+	[<ore:alloyAdvanced>, <ore:blockIron>, <ore:alloyAdvanced>]
+]);
+recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 2}));
+mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:machineblock2:11>.withTag({tier: 2}), [
+	[<ore:alloyElite>, <ore:blockIron>, <ore:alloyElite>], 
+	[<ore:blockIron>, <mekanism:machineblock2:11>, <ore:blockIron>], 
+	[<ore:alloyElite>, <ore:blockIron>, <ore:alloyElite>]
+]);
+recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 3}));
+mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:machineblock2:11>.withTag({tier: 3}), [
+	[<ore:alloyUltimate>, <ore:blockIron>, <ore:alloyUltimate>], 
+	[<ore:blockIron>, <mekanism:machineblock2:11>, <ore:blockIron>], 
+	[<ore:alloyUltimate>, <ore:blockIron>, <ore:alloyUltimate>]
+]);
+// Garden clocher
+recipes.remove (<mekanismgenerators:generator:3>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <mekanismgenerators:generator:3>, [
+	[<ore:alloyUltimate>, <mekanism:basicblock:8>, <mekanism:electrolyticcore>, <mekanism:basicblock:8>, <ore:alloyUltimate>], 
+	[<mekanism:basicblock:8>, <ore:alloyElite>, <ore:blockIron>, <ore:alloyElite>, <mekanism:basicblock:8>], 
+	[<mekanism:electrolyticcore>, <ore:blockIron>, <ore:ic2Generator>, <ore:blockIron>, <mekanism:electrolyticcore>], 
+	[<mekanism:basicblock:8>, <ore:alloyElite>, <ore:blockIron>, <ore:alloyElite>, <mekanism:basicblock:8>], 
+	[<ore:alloyUltimate>, <mekanism:basicblock:8>, <mekanism:electrolyticcore>, <mekanism:basicblock:8>, <ore:alloyUltimate>]
+]);
+// Gas Burning Generator
+recipes.remove (<immersiveengineering:metal_device1:13>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_device1:13>, [
+	[<appliedenergistics2:quartz_vibrant_glass>, <ore:electronTube>, <ore:electronTube>, <ore:electronTube>, <appliedenergistics2:quartz_vibrant_glass>], 
+	[<appliedenergistics2:quartz_vibrant_glass>, <ore:compressed4xDirt>, <ore:compressed4xDirt>, <ore:compressed4xDirt>, <appliedenergistics2:quartz_vibrant_glass>], 
+	[<appliedenergistics2:quartz_vibrant_glass>, <immersiveengineering:material:8>, <immersiveengineering:material:8>, <immersiveengineering:material:8>, <appliedenergistics2:quartz_vibrant_glass>], 
+	[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], 
+	[<ore:plankTreatedWood>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>, <ore:plankTreatedWood>]
+]);
+
+
+
+

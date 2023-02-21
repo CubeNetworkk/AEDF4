@@ -285,8 +285,9 @@ mods.jei.JEI.removeAndHide (<enderio:item_dark_steel_upgrade:1>.withTag({"enderi
 // Vajra
 recipes.remove (<gravisuite:vajra:26>);
 recipes.remove (<gravisuite:vajra>.withTag({charge: 1.0E7}));
-// Tanks do meka
-recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 0}));
-recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 1}));
-recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 2}));
-recipes.remove (<mekanism:machineblock2:11>.withTag({tier: 3}));
+
+// Chuck Loaders
+recipes.remove (<chunkloaders:single_chunk_loader>);
+recipes.remove (<chunkloaders:basic_chunk_loader>);
+recipes.remove (<chunkloaders:advanced_chunk_loader>);
+recipes.remove (<chunkloaders:ultimate_chunk_loader>);
