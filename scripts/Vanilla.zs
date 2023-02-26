@@ -1,0 +1,25 @@
+// -Removidos- //
+recipes.remove (<minecraft:boat>);
+mods.jei.JEI.removeAndHide (<minecraft:boat>);
+recipes.remove (<minecraft:dark_oak_boat>);
+mods.jei.JEI.removeAndHide (<minecraft:dark_oak_boat>);
+recipes.remove (<minecraft:acacia_boat>);
+mods.jei.JEI.removeAndHide (<minecraft:acacia_boat>);
+recipes.remove (<minecraft:jungle_boat>);
+mods.jei.JEI.removeAndHide (<minecraft:jungle_boat>);
+recipes.remove (<minecraft:birch_boat>);
+mods.jei.JEI.removeAndHide (<minecraft:birch_boat>);
+recipes.remove (<minecraft:spruce_boat>);
+mods.jei.JEI.removeAndHide (<minecraft:spruce_boat>);
+recipes.remove (<minecraft:item_frame>);
+mods.jei.JEI.removeAndHide (<minecraft:item_frame>);
+recipes.remove (<minecraft:hopper_minecart>);
+mods.jei.JEI.removeAndHide (<minecraft:hopper_minecart>);
+recipes.remove (<minecraft:minecart>);
+mods.jei.JEI.removeAndHide (<minecraft:minecart>);
+recipes.remove (<minecraft:furnace_minecart>);
+mods.jei.JEI.removeAndHide (<minecraft:furnace_minecart>);
+recipes.remove (<minecraft:chest_minecart>);
+mods.jei.JEI.removeAndHide (<minecraft:chest_minecart>);
+recipes.remove (<minecraft:tnt_minecart>);
+mods.jei.JEI.removeAndHide (<minecraft:tnt_minecart>);
